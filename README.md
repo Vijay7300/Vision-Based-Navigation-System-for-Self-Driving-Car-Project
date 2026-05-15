@@ -87,8 +87,8 @@ filename.jpg steering_angle
 * Pandas
 * Matplotlib
 
-# Project Structure
-
+```markdown
+#  Project Structure
 
 VISION-BASED-NAVIGATION-SYSTEM
 │
@@ -132,6 +132,8 @@ VISION-BASED-NAVIGATION-SYSTEM
 ├── requirements.txt
 ├── README.md
 └── setup.py
+```
+
 
 
 
