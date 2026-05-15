@@ -1,3 +1,7 @@
+
+
+
+
 # Vision-Based Navigation System for Self-Driving Car
 
 The **Vision-Based Navigation System for Self-Driving Car** is an AI-powered autonomous driving project that uses **Computer Vision**, **Deep Learning**, and **Real-Time Inference** techniques to understand road environments and support intelligent vehicle navigation.
@@ -44,7 +48,11 @@ Artificial Intelligence is the core part of this navigation system. AI helps the
 This project implements and extends the following research work:
 
 *End to End Learning for Self-Driving Cars*
-End to End Learning for Self-Driving Cars
+Research Paper - 
+
+https://github.com/user-attachments/assets/5b356924-832c-45d5-abcb-ebc47d490cf9
+
+https://arxiv.org/abs/1604.07316
 
 The original paper proposes a CNN architecture that maps raw image pixels directly to steering commands.
 This implementation follows the same end-to-end learning paradigm and extends it using:
