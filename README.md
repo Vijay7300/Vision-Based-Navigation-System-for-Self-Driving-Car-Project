@@ -87,6 +87,50 @@ filename.jpg steering_angle
 * Pandas
 * Matplotlib
 
+# Project Structure
+
+VISION-BASED-NAVIGATION-SYSTEM
+│
+├── data/
+│   ├── driving_dataset/
+│   └── steering_wheel_image.jpg
+│
+├── model_training/
+│   ├── train_lane_detection/
+│   │   ├── runs/
+│   │   ├── training_lane_detection.ipynb
+│   │   ├── yolo11n-seg.pt
+│   │   └── yolo11m-seg.pt
+│   │
+│   └── train_steering_angle/
+│       ├── logs/
+│       ├── save/
+│       ├── driving_data.py
+│       ├── model.py
+│       └── train.py
+│
+├── saved_models/
+│   ├── lane_segmentation_model/
+│   ├── object_detection_model/
+│   │   └── yolo11s-seg.pt
+│   └── regression_model/
+│
+├── src/
+│   ├── inference/
+│   │   ├── run_fsd_inference.py
+│   │   └── run_steering_angle_prediction.py
+│   │
+│   ├── models/
+│   │   ├── __init__.py
+│   │   └── model.py
+│   │
+│   ├── utils/
+│   └── tests/
+│
+├── notebooks/
+├── requirements.txt
+├── README.md
+└── setup.py
 
 #  Project Demo Video
 Demonstration video included showing:
