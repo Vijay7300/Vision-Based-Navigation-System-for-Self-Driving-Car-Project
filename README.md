@@ -89,6 +89,7 @@ filename.jpg steering_angle
 
 # Project Structure
 
+
 VISION-BASED-NAVIGATION-SYSTEM
 │
 ├── data/
@@ -131,6 +132,8 @@ VISION-BASED-NAVIGATION-SYSTEM
 ├── requirements.txt
 ├── README.md
 └── setup.py
+
+
 
 #  Project Demo Video
 Demonstration video included showing:
