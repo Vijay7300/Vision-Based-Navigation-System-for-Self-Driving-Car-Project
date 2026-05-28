@@ -134,7 +134,35 @@ VISION-BASED-NAVIGATION-SYSTEM
 └── setup.py
 ```
 
+# Results
+Steering Angle Prediction Results
 
+The steering angle prediction model was trained for 30 epochs using a CNN-based regression architecture implemented with TensorFlow.
+Training Performance
+Final Epoch: 30
+Batch Size: 100
+Final Loss Range: 4.35 – 4.65
+Optimizer: Adam Optimizer
+Real-Time Inference Results
+
+The autonomous driving perception pipeline performed:
+Object Detection
+Lane Detection
+Steering Angle Prediction
+Object Detection Performance
+Multiple vehicles detected in real-time traffic scenes
+Input Resolution: 384 × 640
+Average Inference Time: 220–335 ms per frame
+Steering Angle Prediction
+
+Sample predicted steering angles:
+3.79°
+5.35°
+5.27°
+6.43°
+7.05°
+9.10°
+The predicted steering angles changed smoothly across sequential frames, indicating stable driving behavior.
 
 
 #  Project Demo Video
